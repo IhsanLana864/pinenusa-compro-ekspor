@@ -71,6 +71,10 @@ html {
   /* WebKit  */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   color: var(--paragraph-color);
@@ -4787,6 +4791,7 @@ ul {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0;
 }
+
 
 .footer-bottom ul {
   margin: 0;

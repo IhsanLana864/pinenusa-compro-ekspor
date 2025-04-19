@@ -133,14 +133,5 @@ $(function() {
             icon: 'assets/img/1.png',
         }               
     ];
-    new Maplace({
-        locations: LocsA,
-        controls_on_map: false,
-        map_options: {
-            zoom: 12,
-            scrollwheel: false,
-            stopover: true
-        }
-    }).Load();
 
 });
